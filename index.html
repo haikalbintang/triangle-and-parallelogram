@@ -71,12 +71,56 @@
       </section>
     </div>  
     <!-- Main Parallelogram -->
-    <section id="parallelogram">
-      <h2>Parallelogram Area</h2>
-    </section>
-    <section>
-      <h2>Parallelogram Perimeter</h2>
-    </section>
+    <!-- Parallelogram Area -->
+    <div class="card">  
+      <section id="parallelogram" class="parallelogram-area">
+        <h2 class="parallelogram-h2">Parallelogram Area</h2>
+        <img src="./assets/Parallelogram.svg" alt="parallelogram">
+        <p>Parallelogram Area Formula is:</p>
+        <p class="formula">L = b*h</p>
+        <p>L = Luas</p>
+        <p>b = Basis/Alas</p>
+        <p>h = Tinggi</p>
+        <hr>
+        <h3 class="parallelogram-h3">Count Parallelogram Area</h3>
+        <form action="" class="para-area-form">
+          <input type="number" name="parallel" id="base" placeholder="Nilai Basis/Alas">
+          <br>
+          <input type="number" name="paralell" id="height" placeholder="Nilai Tinggi">
+          <br>
+          <input type="submit" value="Hitung" class="submit">
+        </form>
+        <button class="reset">Reset</button>
+      </section>
+    </div>
+    <!-- Parallelogram Perimeter -->
+    <div class="card">  
+      <section class="parallelogram-perimeter">
+        <h2 class="parallelogram-h2">Parallelogram Perimeter</h2>
+        <img src="./assets/Parallelogram.svg" alt="parallelogram">
+        <p>Parallelogram Perimeter Formula is:</p>
+        <p class="formula">K = AB + BC + CD + DA</p>
+        <p>K = Keliling</p>
+        <p>AB = sisi b</p>
+        <p>BC = sisi a</p>
+        <p>CD = sisi b</p>
+        <p>DA = sisi a</p>
+        <hr>
+        <h3 class="parallelogram-h3">Count Parallelogram Perimeter</h3>
+        <form action="" class="para-peri-form">
+          <input type="number" name="Parallel" id="AB-length" placeholder="Sisi AB">
+          <br>
+          <input type="number" name="Parallel" id="BC-length" placeholder="Sisi BC">
+          <br>
+          <input type="number" name="Parallel" id="CD-length" placeholder="Sisi CD">
+          <br>
+          <input type="number" name="Parallel" id="DA-length" placeholder="Sisi DA">
+          <br>
+          <input type="submit" value="Hitung" class="submit">
+        </form>
+        <button class="reset">Reset</button>
+      </section>
+    </div>
     <!-- Footer -->
     <footer>
       <p>Copyright &#169; Muhammad Haikal Bintang at RevoU</p>

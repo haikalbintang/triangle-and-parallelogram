@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1280px;
     margin: auto;
+    scroll-behavior: smooth;
 }
 header {
     text-align: center;
@@ -33,39 +34,39 @@ nav {
     text-align: center; /* align the links to the center */
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 6px;
   }
-  
-  nav li a:hover {
-    background-color: rgb(93, 129, 96);
+  nav li a:link {
+    text-decoration: none;
   }
   nav li a:visited {
-    font-weight:bold;
-    font-size:larger;
+    background-color: rgb(93, 129, 96);
+  }
+  nav li a:hover, nav li a:active {
+    background-color: rgb(93, 129, 96);
   }
 
-.triangle-area > img {
+.triangle-area > img, .parallelogram-area > img {
     display: block;
     margin:auto;
 }
-.triangle-perimeter > img {
+.triangle-perimeter > img, .parallelogram-perimeter > img  {
     display: block;
     margin:auto;
 }
-.triangle-h2 {
+.triangle-h2, .parallelogram-h2  {
     text-align: center;
+    background-color:  rgb(93, 129, 96);
+    padding: 20px;
 }
-.triangle-h3 {
+.triangle-h3, .parallelogram-3 {
     text-align: center;
 }
 .card {
     padding: 5px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
-.triangle-h2 {
-    background-color:  rgb(93, 129, 96);
-    padding: 20px
-}
-.tri-area-form {
+.tri-area-form, .para-area-form {
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -94,7 +95,7 @@ nav {
     background-color: chocolate;
     border-radius: 6px;
 }
-.tri-peri-form {
+.tri-peri-form, .para-peri-form {
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -110,6 +111,16 @@ nav {
 #CA-length {
     padding: 10px;
 }
+#CD-length {
+    padding: 10px;
+}
+#DA-length {
+    padding: 10px;
+}
 .formula {
     text-align: center;
+}
+footer {
+    padding: 15px;
+    text-align: end;
 }
