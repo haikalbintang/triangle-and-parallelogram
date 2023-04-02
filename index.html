@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometry</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <div>
+    <!-- Header, NavBar -->
+    <header>
+      <h1>Welcome to Katik!</h1>
+      <p>Lorem ipsum dolor sit.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, fugiat.
+      </p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#triangle">Triangle</a></li>
+        <li><a href="#parallelogram">Parallelogram</a></li>
+      </ul>
+    </nav>
+    <!-- Main Triangle-->
+    <!-- Triangle Area -->
+    <div class="card">
+      <section id="triangle" class="triangle-area">
+        <h2 class="triangle-h2">Triangle Area</h2>
+        <img src="./assets/triangle.jpg" alt="triangle">
+        <p>Triangle Area Formula is:</p>
+        <p  class="formula">L = 1/2 (a*t)</p>
+        <p>L = Luas</p>
+        <p>a = Alas</p>
+        <p>t = Tinggi</p>
+        <hr>
+        <h3 class="triangle-h3">Count Triangle Area</h3>
+        <form action="" class="tri-area-form">
+          <input type="number" name="triangular" id="base" placeholder="Nilai Alas">
+          <br>
+          <input type="number" name="triangular" id="height" placeholder="Nilai Tinggi">
+          <br>
+          <input type="submit" value="Hitung" class="submit">
+        </form>
+        <button class="reset">Reset</button>
+      </section>
+    </div>
+    <!-- Triangle Perimeter -->
+    <div class="card">
+      <section class="triangle-perimeter">
+        <h2 class="triangle-h2">Triangle Perimeter</h2>
+        <img src="./assets/triangle.jpg" alt="triangle">
+        <hr>
+        <p>Triangle Perimeter Formula is:</p>
+        <p class="formula">K = AB + BC + CA</p>
+        <p>K = Keliling</p>
+        <p>AB = sisi c</p>
+        <p>BC = sisi a</p>
+        <p>CA = sisi b</p>
+        <h3 class="triangle-h3">Count Triangle Perimeter</h3>
+        <form action="" class="tri-peri-form">
+          <input type="number" name="triangular" id="AB-length" placeholder="Sisi AB">
+          <br>
+          <input type="number" name="triangular" id="BC-length" placeholder="Sisi BC">
+          <br>
+          <input type="number" name="triangular" id="CA-length" placeholder="Sisi CA">
+          <br>
+          <input type="submit" value="Hitung" class="submit">
+        </form>
+        <button class="reset">Reset</button>
+      </section>
+    </div>  
+    <!-- Main Parallelogram -->
+    <section id="parallelogram">
+      <h2>Parallelogram Area</h2>
+    </section>
+    <section>
+      <h2>Parallelogram Perimeter</h2>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>Copyright &#169; Muhammad Haikal Bintang at RevoU</p>
+    </footer>
+  </body>
+</html>
