@@ -58,16 +58,17 @@
         <p>BC = sisi a</p>
         <p>CA = sisi b</p>
         <h3 class="triangle-h3">Count Triangle Perimeter</h3>
-        <form action="" class="tri-peri-form">
-          <input type="number" name="triangular" id="AB-length" placeholder="Sisi AB">
+        <form name="form-tri-peri" onsubmit="return hitungTrianglePerimeter()" action="" class="tri-peri-form">
+          <input type="number" name="triangular-c" id="AB-length" placeholder="Sisi AB">
           <br>
-          <input type="number" name="triangular" id="BC-length" placeholder="Sisi BC">
+          <input type="number" name="triangular-a" id="BC-length" placeholder="Sisi BC">
           <br>
-          <input type="number" name="triangular" id="CA-length" placeholder="Sisi CA">
+          <input type="number" name="triangular-b" id="CA-length" placeholder="Sisi CA">
           <br>
-          <input type="submit" value="Hitung" class="submit">
+          <input type="submit" value="Hitung" class="submit" onclick="">
         </form>
         <button class="reset">Reset</button>
+        <p>Result = <span id="triangle-perimeter-result"></span></p>
       </section>
     </div>  
     <!-- Main Parallelogram -->
@@ -125,5 +126,6 @@
     <footer>
       <p>Copyright &#169; Muhammad Haikal Bintang at RevoU</p>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
